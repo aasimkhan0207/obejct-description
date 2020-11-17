@@ -29,7 +29,7 @@ class ShapeDetector:
             shape = 'square' if ratio>=0.95 and ratio<1.05 else 'rectangle'
 
         elif len(approx) ==5:
-            shape='pentagon'
+            shape='Pentagon'
 
         else:
             shape ='circle'
